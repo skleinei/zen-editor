@@ -1,0 +1,10 @@
+{
+  "key":       "zen-editor",
+  "name":      "Zen Editor",
+  "description":  "View Editor",
+  "version":    "1",
+  
+  "vendor": {  "name": "Stefan Kleineikenscheidt",
+           "url": "http://k15t.com/",
+           "email": "stefan@k15t.com" }
+}

@@ -1,0 +1,57 @@
+body.zen-editor {
+  background: none no-repeat center center fixed #ccc;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.zen-editor #main, 
+body.zen-editor #full-height-container {
+  background-color: transparent;
+}
+
+body.zen-editor #header,
+body.zen-editor #editor-precursor,
+body.zen-editor #toolbar {
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  top: -146px;
+}
+
+body.zen-editor #wysiwyg {
+  position: relative;
+  z-index: 9;
+  top: -148px;
+}
+
+body.zen-editor #savebar-container {
+  z-index: 10;
+  bottom: -76px;
+}
+
+body.zen-editor .toolbar-shadow {
+  display: none;
+}
+
+body.zen-editor table#wysiwygTextarea_tbl {
+  width: inherit!important;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: white;
+}
+
+body.zen-editor div#mo-top,
+body.zen-editor div#mo-bottom {
+  height: 26px;
+}
+
+body.zen-editor .aui-message {
+  left: 16px;
+  margin: 0 auto;
+  position: fixed;
+  top: 130px;
+  z-index: 11;
+  width: 400px
+}
